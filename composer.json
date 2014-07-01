@@ -1,0 +1,24 @@
+{
+    "name": "trt/kata-number-in-words",
+    "description": "Kata_NumberInWords",
+    "require-dev": {
+        "phpunit/phpunit": "~4.1.3"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Simone Di Maulo",
+            "email": "toretto460@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Trt\\NumberInWords\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
