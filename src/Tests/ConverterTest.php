@@ -27,7 +27,7 @@ class ConverterTest extends \PHPUnit_Framework_TestCase
 				=> [100, 'one hundred'],
 			'should convert 99 in ninety nine'   
 				=> [99,  'ninety nine'],
-			'should convert 1208 in one thounsand two hundreds and eight'  
+			'should convert 1208 in one thousand two hundreds and eight'  
 				=> [1208, 'one thounsand two hundreds and eight'],
 			'should convert 2 in two'  
 				=> [2, 'two'],
